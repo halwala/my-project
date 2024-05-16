@@ -25,10 +25,6 @@ This file defines the `Car` class with the following attributes and methods:
 
 This file demonstrates the usage of the `Car` class by creating instances of the class and calling its methods. It also includes a `drive_car` function that simulates driving a car for a given number of miles and updates the odometer reading accordingly.
 
-## Usage
-
-To run the project, you need to have Python installed on your system. Then, navigate to the project directory in your terminal or command prompt and run the `program.py` file:
-
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Additionally, you can open issues for bug reports or feature requests.
