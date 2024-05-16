@@ -8,3 +8,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def drive_car(car, miles):
+    print(f"Driving the {car.get_descriptive_name()} for {miles} miles.")
+    car.increment_odometer(miles)
+
+if __name__ == "__main__":
+    main()
