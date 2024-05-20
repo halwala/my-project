@@ -15,3 +15,7 @@ def drive_car(car, miles):
 
 if __name__ == "__main__":
     main()
+
+my_car = Car("Honda", "Accord", 2021)
+drive_car(my_car, 25)
+my_car.read_odometer()
