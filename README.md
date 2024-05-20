@@ -1,29 +1,27 @@
-# Car Class Example
+Car Class in Python
 
-This repository contains a simple Python project that defines a `Car` class and demonstrates its usage. The project includes two files: `car.py` and `program.py`.
+This repository contains Python code for a simple Car class that represents a car's attributes and functionality.
 
-## Files
+Features:
 
-### `car.py`
+    Create Car objects with make, model, year, and odometer reading.
+    Get a formatted descriptive name for the car.
+    Read the current odometer reading.
+    Update the odometer reading, preventing rollbacks.
+    Increase the odometer reading by a specified number of miles.
+    Simulate filling the gas tank (for demonstration purposes).
 
-This file defines the `Car` class with the following attributes and methods:
+Usage
 
-- Attributes:
-  - `make`: The make of the car (e.g., Toyota, Honda).
-  - `model`: The model of the car (e.g., Camry, Civic).
-  - `year`: The year the car was manufactured.
-  - `odometer_reading`: The current odometer reading of the car (default is 0).
+Run the script using python program.py.
 
-- Methods:
-  - `__init__(self, make, model, year)`: Initializes a new instance of the `Car` class with the given make, model, and year.
-  - `get_descriptive_name(self)`: Returns a descriptive name of the car in the format "YEAR MAKE MODEL".
-  - `read_odometer(self)`: Prints the current odometer reading of the car.
-  - `update_odometer(self, mileage)`: Updates the odometer reading of the car to the given mileage, but only if the new mileage is greater than the current reading.
-  - `increment_odometer(self, miles)`: Increments the odometer reading of the car by the given number of miles.
+Example Output:
 
-### `program.py`
-
-This file demonstrates the usage of the `Car` class by creating instances of the class and calling its methods. It also includes a `drive_car` function that simulates driving a car for a given number of miles and updates the odometer reading accordingly.
+My car is a 2021 Honda Accord.
+This car has 0 miles on it.
+Driving the 2021 Honda Accord for 25 miles.
+This car has 25 miles on it.
+Odometer cannot be rolled back!
 
 ## Contributing
 
